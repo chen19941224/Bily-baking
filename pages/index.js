@@ -1,9 +1,10 @@
+
 import { motion } from 'framer-motion';
+import '../styles/globals.css';
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f8f5f0] text-[#3e342e] font-sans">
-      {/* Hero Section */}
       <section className="w-full h-[80vh] bg-[url('/cake-banner.jpg')] bg-cover bg-center flex flex-col justify-center items-center text-center px-4">
         <motion.h1
           className="text-5xl md:text-6xl font-bold mb-4"
@@ -17,7 +18,6 @@ export default function Home() {
         </p>
       </section>
 
-      {/* 品牌介紹 */}
       <section className="py-16 px-4 md:px-12 text-center">
         <h2 className="text-3xl font-semibold mb-4">我們的故事</h2>
         <p className="max-w-2xl mx-auto text-base text-[#5a4f47]">
@@ -25,7 +25,6 @@ export default function Home() {
         </p>
       </section>
 
-      {/* 熱銷蛋糕展示 */}
       <section className="bg-[#f3ede7] py-12 px-4 md:px-12">
         <h2 className="text-2xl font-semibold text-center mb-8">熱銷蛋糕</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -44,7 +43,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 訂閱區塊 */}
       <section className="bg-white py-12 px-4 md:px-12 text-center">
         <h2 className="text-2xl font-semibold mb-2">訂閱 Bily Baking 的甜點時光</h2>
         <p className="text-sm text-[#7a6f67] mb-4">搶先獲得新品、限量優惠與甜點靈感</p>
